@@ -1,0 +1,629 @@
+/*
+|--------------------------------------------------
+| BASE STYLES START 
+|--------------------------------------------------
+*/
+
+
+body {
+  margin: 0;
+  background-color: #000;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+h h2,
+h3 {
+  font-weight: 100
+}
+
+h1 {
+  color: #FFF;
+  font-size: 22px;
+  width: 800px;
+  line-height: 40px;
+  font-weight: 500;
+}
+
+
+
+h1 a {
+  text-decoration: none;
+  color: #FFF;
+  display: inline-block;
+  transition: all .3s cubic-bezier(.05, .03, .35, 1)
+}
+
+
+h1 a:after {
+  width: 100%;
+  transition: all .3s cubic-bezier(.05, .03, .35, 1)
+}
+
+h1 a:hover {
+  color: rgba(255, 255, 255, .5)
+}
+
+h1 a:hover:after {
+  margin-top: 5px
+}
+
+h2 {
+  color: rgba(255, 255, 255, .8);
+  font-size: 15px;
+  width: 900px;
+  line-height: 35px;
+  margin-top: 30px
+}
+
+h2 span {
+  color: rgba(255, 255, 255, 1)
+}
+
+
+hr {
+  border: 0;
+  outline: 0;
+  margin-top: 15px;
+  margin-bottom: 40px
+}
+
+h3 {
+  font-size: 13px;
+  margin-top: 8px;
+  position: absolute;
+  left: 0;
+  margin-left: 400px
+}
+
+h3 {
+  color: rgba(255, 255, 255, .7)
+}
+
+
+
+
+
+/*
+|--------------------------------------------------
+| BASE STYLES END 
+|--------------------------------------------------
+*/
+
+
+
+
+
+
+
+
+/*
+|--------------------------------------------------
+| HEADER STYLES START 
+|--------------------------------------------------
+*/
+#head {
+  margin-top: 40px;
+  width: 90%;
+}
+
+#head #name {
+  color: #FFF;
+  display: inline-block;
+  margin-bottom: 10px;
+  margin-top: 0;
+  font-weight: 600;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+#line {
+  width: 100%
+}
+
+#highlight {
+  right: 0;
+  height: 4px;
+  position: absolute;
+  background: linear-gradient(90.68deg, #B439DF .26%, #E5337E 102.37%);
+  width: 180px;
+  margin-top: -1px
+}
+
+#hi,
+#links a {
+  font-family: "Ilisarniq Light";
+  color: #FFF;
+  display: inline-block;
+  transition: all .3s cubic-bezier(.05, .03, .35, 1);
+  text-decoration: none
+}
+
+#right {
+  display: inline-block;
+  float: right;
+  font-size: 14px
+}
+
+#links a {
+  margin-right: 60px;
+  opacity: .7;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#hi {
+  font-size: 14px;
+  margin-right: 15px !important;
+  margin-left: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#hi:hover {
+  color: rgba(255, 255, 255, .5) !important
+}
+
+
+
+/*
+|--------------------------------------------------
+| HEADER STYLES END 
+|--------------------------------------------------
+*/
+
+
+
+
+
+/*
+|--------------------------------------------------
+| CONTACT STYLES START 
+|--------------------------------------------------
+*/
+
+#contact {
+  display: block;
+  width: 90%;
+  color: rgba(255, 255, 255, .8);
+  font-size: 15px;
+  margin: 70px auto 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  word-spacing: 1px;
+  font-weight: 500;
+
+}
+
+#contact a {
+  text-decoration: none;
+  position: relative;
+  font-size: 15px;
+  margin-right: 10px;
+  margin-left: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#contact a:after {
+  position: absolute;
+  height: 1px;
+  width: 100%;
+  margin-top: 5px;
+  display: block;
+  opacity: .3;
+  transition: all .3s cubic-bezier(.05, .03, .35, 1)
+}
+
+#contact a:hover:after {
+  margin-top: 10px
+}
+
+
+/*
+|--------------------------------------------------
+| CONTACT STYLES START 
+|--------------------------------------------------
+*/
+
+
+
+
+
+
+/*
+|--------------------------------------------------
+| ABOUT STYLES START 
+|--------------------------------------------------
+*/
+
+#top {
+  width: 90%;
+  text-align: left;
+  margin-top: 100px
+}
+
+
+/*
+|--------------------------------------------------
+| ABOUT STYLES END 
+|--------------------------------------------------
+*/
+
+/*
+|--------------------------------------------------
+| PRODUCT STYLES START 
+|--------------------------------------------------
+*/
+
+
+.section {
+  width: 90%;
+  margin-top: 80px
+}
+
+.intro {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255, 255, 255, .5);
+  font-size: 11px;
+}
+
+
+#contact a,
+.item a {
+  color: #FFF;
+  transition: all .3s cubic-bezier(.05, .03, .35, 1)
+}
+
+.section .item a {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+}
+
+.section .item h3 {
+  font-family: sans-serif;
+  font-size: 13px;
+  word-spacing: 1px;
+}
+
+.item {
+  margin-top: 60px
+}
+
+
+
+
+/*
+|--------------------------------------------------
+| PRODUCT STYLES END 
+|--------------------------------------------------
+*/
+
+
+
+#name,
+.item a {
+  font-family: "Ilisarniq Bold"
+}
+
+.item a {
+  z-index: 9999;
+}
+
+#hi,
+#right a:hover {
+  opacity: 1
+}
+
+#line,
+h1 {
+  margin-top: 10px
+}
+
+#contact a:after,
+h1 a:after {
+  content: "";
+  background-color: #FFF
+}
+
+#footer p,
+h2,
+h3 {
+  margin-bottom: 0
+}
+
+#line,
+hr {
+  background-color: rgba(255, 255, 255, .3);
+  height: 1px
+}
+
+
+#hi,
+#line,
+h1 a {
+  position: relative
+}
+
+#line,
+h1 a:after,
+hr {
+  height: 1px
+}
+
+#head,
+#top,
+.section {
+  margin-left: auto;
+  margin-right: auto
+}
+
+#footer,
+#head,
+#top,
+.section {
+  margin-right: auto
+}
+
+#footer p,
+.intro {
+  letter-spacing: 2px
+}
+
+
+
+
+
+
+
+
+
+.item img,
+h1 a:after {
+  display: block;
+  opacity: .3;
+  position: absolute
+}
+
+
+
+
+#contact a,
+#footer img,
+#footer p,
+#status,
+#status img,
+#status p,
+.item a,
+h3 {
+  display: inline-block
+}
+
+.ishover {
+  visibility: visible !important;
+  transform: scale(1) !important;
+  -webkit-transform: scale(1) !important
+}
+
+.item a {
+  text-decoration: none;
+  font-size: 22px
+}
+
+#contact a:hover,
+#footer p {
+  color: rgba(255, 255, 255, .5)
+}
+
+.item a:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  opacity: .5
+}
+
+
+#socialsmall {
+  margin-top: 30px;
+  display: none
+}
+
+#socialsmall a {
+  margin-right: 20px;
+  opacity: .5
+}
+
+#socialsmall a:hover {
+  transition: all .3s cubic-bezier(.05, .03, .35, 1)
+}
+
+#socialsmall a:nth-child(1) img {
+  width: 20px
+}
+
+
+/*
+|--------------------------------------------------
+| FOOTER START   
+|--------------------------------------------------
+*/
+
+#footer {
+  width: 90%;
+  margin-left: auto;
+  height: 80px
+}
+
+#footer hr {
+  margin-bottom: 30px;
+  height: .7
+}
+
+#footer p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 11px;
+  margin-top: 0
+}
+
+#footer img {
+  width: 20px;
+  float: right
+}
+
+;
+
+/*
+|--------------------------------------------------
+| FOOTER END   
+|--------------------------------------------------
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+|--------------------------------------------------
+| RESPONSIVE MEDIA QUERIES START  
+|--------------------------------------------------
+*/
+
+
+@media only screen and (max-width:980px) {
+  h2 {
+    width: 750px
+  }
+
+  #status {
+    display: block;
+    margin-top: 20px
+  }
+
+  #status img {
+    margin-left: 0
+  }
+
+  h3 {
+    margin-left: 350px
+  }
+}
+
+@media only screen and (max-width:845px) {
+  #right {
+    font-size: 13px
+  }
+
+  #right a {
+    margin-right: 40px
+  }
+
+  h1,
+  h2 {
+    width: 90%
+  }
+
+  h3 {
+    margin-left: 300px;
+    font-size: 12px;
+    line-height: 30px;
+    width: 40%;
+    margin-top: -5px
+  }
+
+  .item {
+    height: 50px
+  }
+}
+
+@media only screen and (max-width:669px) {
+  #links {
+    display: none
+  }
+
+  #socialsmall {
+    display: block !important
+  }
+
+  #contact {
+    line-height: 35px
+  }
+
+  #contact a:after {
+    margin-top: 0
+  }
+
+  #contact a:hover:after {
+    margin-top: 5px
+  }
+}
+
+@media only screen and (max-width:600px) {
+  .item a {
+    font-size: 15px
+  }
+
+  h3 {
+    margin-left: 200px;
+    width: 50%
+  }
+}
+
+@media only screen and (max-width:500px) {
+  h1 {
+    font-size: 16px
+  }
+
+  h2 {
+    font-size: 12px
+  }
+
+  #contact {
+    font-size: 14px
+  }
+
+  #top {
+    margin-top: 80px
+  }
+
+  .item a {
+    font-size: 25px
+  }
+
+  h3 {
+    display: none
+  }
+}
+
+@media only screen and (min-width: 845px) {
+  .item a:hover {
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    opacity: .5;
+  }
+}
+
+/*
+|--------------------------------------------------
+| RESPONSIVE MEDIA QUERIES END  
+|--------------------------------------------------
+*/
