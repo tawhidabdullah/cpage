@@ -8,14 +8,9 @@
 body {
   margin: 0;
   background-color: #000;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-
-h h2,
-h3 {
-  font-weight: 100
-}
 
 h1 {
   color: #FFF;
@@ -57,7 +52,8 @@ h2 {
 }
 
 h2 span {
-  color: rgba(255, 255, 255, 1)
+  color: rgba(255, 255, 255, 1);
+  margin-left: 5px;
 }
 
 
@@ -157,6 +153,7 @@ h3 {
   font-size: 14px;
   margin-right: 15px !important;
   margin-left: 8px;
+  font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -198,6 +195,7 @@ h3 {
   text-decoration: none;
   position: relative;
   font-size: 15px;
+  font-weight: 600;
   margin-right: 10px;
   margin-left: 5px;
   font-family: Arial, Helvetica, sans-serif;
@@ -235,7 +233,7 @@ h3 {
 |--------------------------------------------------
 */
 
-#top {
+#about {
   width: 90%;
   text-align: left;
   margin-top: 100px
@@ -350,7 +348,7 @@ hr {
 }
 
 #head,
-#top,
+#about,
 .section {
   margin-left: auto;
   margin-right: auto
@@ -358,7 +356,7 @@ hr {
 
 #footer,
 #head,
-#top,
+#about,
 .section {
   margin-right: auto
 }
@@ -420,24 +418,6 @@ h3 {
 }
 
 
-#socialsmall {
-  margin-top: 30px;
-  display: none
-}
-
-#socialsmall a {
-  margin-right: 20px;
-  opacity: .5
-}
-
-#socialsmall a:hover {
-  transition: all .3s cubic-bezier(.05, .03, .35, 1)
-}
-
-#socialsmall a:nth-child(1) img {
-  width: 20px
-}
-
 
 /*
 |--------------------------------------------------
@@ -474,26 +454,6 @@ h3 {
 | FOOTER END   
 |--------------------------------------------------
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -560,9 +520,6 @@ h3 {
     display: none
   }
 
-  #socialsmall {
-    display: block !important
-  }
 
   #contact {
     line-height: 35px
@@ -601,7 +558,7 @@ h3 {
     font-size: 14px
   }
 
-  #top {
+  #about {
     margin-top: 80px
   }
 
